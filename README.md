@@ -82,6 +82,7 @@ In the snippet above, replace:
 * `{APP-PACKAGE-NAME}` with your app package name (value of `id` element in your AIR app descriptor).
 * `{REVERSED-CLIENT-ID}` with your `REVERSED_CLIENT_ID` value from your `GoogleService-Info.plist` file. The value starts with `com.googleusercontent.apps`.
 * `{DYNAMIC-LINK-DOMAIN}` with your Dynamic Link domain value from the Firebase project console (see image below). The value must be without `https://` and the trailing slash so that the value of the entitlement will look like this: `applinks:appid.app.goo.gl`
+
 ![Firebase dynamic link domain](images/dynamic-link-domain.png)
 
 For Android support, modify `manifestAdditions` element so that it contains the following:
