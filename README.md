@@ -1,6 +1,6 @@
 # Firebase Invites | Native extension for Adobe AIR (iOS &amp; Android)
 
-[Firebase Invites](https://firebase.google.com/docs/invites/) is a cross-platform solution for sending personalized email and SMS invitations, on-boarding users, and measuring the impact of invitations.
+[Firebase Invites](https://firebase.google.com/docs/invites/) is a cross-platform solution for sending personalized email and SMS invitations, on-boarding users, and measuring the impact of invitations. Word of mouth is one of the most effective ways of getting users to install your app. Firebase Invites makes it easy to turn your app's users into your app's strongest advocates.
 
 Development of this extension is supported by [Master Tigra, Inc.](https://github.com/mastertigra)
 
@@ -150,7 +150,7 @@ private function onFirebaseInvitationReceived( invitation:FirebaseInvitation ):v
 
 It is recommended to add the callback before initializing the extension to receive any invitations which result in launching your app.
 
-The callback can be removed using:
+You can add more than one callback, or remove specific callback using:
 
 ```as3
 FirebaseInvites.removeInvitationReceivedCallback( onFirebaseInvitationReceived );
