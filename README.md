@@ -1,4 +1,6 @@
-# FirebaseInvites | Native extension for Adobe AIR (iOS &amp; Android)
+# Firebase Invites | Native extension for Adobe AIR (iOS &amp; Android)
+
+[Firebase Invites](https://firebase.google.com/docs/invites/) is a cross-platform solution for sending personalized email and SMS invitations, on-boarding users, and measuring the impact of invitations.
 
 Development of this extension is supported by [Master Tigra, Inc.](https://github.com/mastertigra)
 
