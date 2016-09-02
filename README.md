@@ -38,6 +38,7 @@ If you are targeting Android, add the following extensions from [this repository
 
 ```xml
 <extensions>
+    <extensionID>com.marpies.ane.androidsupport</extensionID>
     <extensionID>com.marpies.ane.googleplayservices.base</extensionID>
     <extensionID>com.marpies.ane.googleplayservices.appinvite</extensionID>
 </extensions>
